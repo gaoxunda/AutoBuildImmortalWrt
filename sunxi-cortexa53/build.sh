@@ -24,10 +24,13 @@ PACKAGES="$PACKAGES luci-i18n-passwall-zh-cn"
 PACKAGES="$PACKAGES luci-app-openclash"
 PACKAGES="$PACKAGES luci-app-wireguard"
 PACKAGES="$PACKAGES openssh-sftp-server"
+PACKAGES="$PACKAGES luci-app-lucky"
+PACKAGES="$PACKAGES luci-app-ddns-go"
+PACKAGES="$PACKAGES luci-app-homebox"
 # 增加几个必备组件 方便用户安装iStore
-PACKAGES="$PACKAGES fdisk"
-PACKAGES="$PACKAGES script-utils"
-PACKAGES="$PACKAGES luci-i18n-samba4-zh-cn"
+#PACKAGES="$PACKAGES fdisk"
+#PACKAGES="$PACKAGES script-utils"
+#PACKAGES="$PACKAGES luci-i18n-samba4-zh-cn"
 
 # 删除一些不用的软件包
 PACKAGES="$PACKAGES -luci-app-cpufreq"
